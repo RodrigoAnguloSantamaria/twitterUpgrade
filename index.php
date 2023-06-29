@@ -1,4 +1,5 @@
 <?php
+require_once "utils.php";
 
 $tweets = [
     [
@@ -23,3 +24,4 @@ $tweets = [
 ];
 
 require_once "index.html";
+
