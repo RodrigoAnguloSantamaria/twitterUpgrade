@@ -1,6 +1,25 @@
 <?php
-$texto="En un lugar de la Mancha...";
-$autor="Miguel de Cervantes";
-$user="@El_literario";
+
+$tweets = [
+    [
+        "texto" => "mi primer tweet",
+        "autor" => "carlos",
+        "user" => "carlopach"
+            
+    ], 
+    [
+        "texto" => "mi segundo tweet",
+        "autor" => "moises",
+        "user" => "carlopach"
+        
+    ], 
+    [
+        "texto" => "mi tercer tweet",
+        "autor" => "rodrigo",
+        "user" => "carlopach"
+        
+    ], 
+
+];
 
 require_once "index.html";
